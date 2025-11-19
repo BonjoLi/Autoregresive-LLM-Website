@@ -18,7 +18,7 @@ export function ChatInterface({ onComplete }: ChatInterfaceProps) {
     {
       id: '1',
       role: 'assistant',
-      content: 'Hello! I\'m here to have a conversation with you. Feel free to ask me anything or share your thoughts.'
+      content: 'Hello! I\'m here to have a conversation with you. Your task is to dicuss the following topics with me [Insert topics/prompts participant should ask the LLM here].'
     }
   ]);
   const [input, setInput] = useState('');
@@ -102,7 +102,7 @@ export function ChatInterface({ onComplete }: ChatInterfaceProps) {
       {/* Header */}
       <div className="border-b border-gray-200 px-6 py-4">
         <div className="mx-auto flex max-w-3xl items-center justify-between">
-          <h2>Conversation</h2>
+          <h2>Chat Interface</h2>
           <Button 
             variant="outline" 
             onClick={onComplete}

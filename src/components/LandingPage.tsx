@@ -11,7 +11,8 @@ export function LandingPage({ onStart }: LandingPageProps) {
         <h1 className="mb-6 text-5xl">Research Study: Human-AI Conversation</h1>
         <p className="mb-8 text-gray-600">
           Thank you for participating in our research study. You will engage in a conversation 
-          with an AI chatbot. Please interact naturally and complete the conversation task.
+          with an AI chatbot. Please interact naturally and complete the conversation task. Once 
+          completion of the conversation, click the "end conversation" button to return back to the Qualtrics survey.
         </p>
         <Button 
           onClick={onStart}
