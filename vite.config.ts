@@ -4,7 +4,7 @@
   import path from 'path';
 
 export default defineConfig({
-  base: '/Autoregresivellmwebsite/',
+  base: '/Autoregressive-LLM-Website/',
   plugins: [react()],
   resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
